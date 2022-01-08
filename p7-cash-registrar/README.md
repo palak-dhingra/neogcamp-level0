@@ -1,4 +1,4 @@
-# neogcamp_cash_registrar
+# [cash_registrar](https://cashregistrar.netlify.app/)
 A cash register manager which helps the user by telling how can he/she return the change to the customer with minimum number of notes.
 
 # How to use:

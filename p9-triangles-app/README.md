@@ -1,4 +1,4 @@
-# neogcamp_triangles_app
+# [triangles_app](https://funtriangles-app.netlify.app/)
 A website which helps you to learn about triangles, contains quizzes & calculators.
 
 # How to use:

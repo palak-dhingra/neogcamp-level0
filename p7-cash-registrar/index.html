@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>cash registrar</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <h1>Cash Register Manager</h1>
+            <p class="description">Enter the bill amount and cash given by the customer and know minimum number of notes
+                to return.</p>
+            <label for="billAmount">Bill Amount</label>
+            <input id="billAmount" type="number" min=1>
+            <label for="cashGiven">Cash Given</label>
+            <input id="cashGiven" type="number" min=2>
+
+            <button id="btn-check">Check</button>
+            <p id="error-message"></p>
+            <table>
+                <caption>Return Change</caption>
+                <tr>
+                    <th>No of Notes</th>
+                    <td class="deno"></td>
+                    <td class="deno"></td>
+                    <td class="deno"></td>
+                    <td class="deno"></td>
+                    <td class="deno"></td>
+                    <td class="deno"></td>
+                    <td class="deno"></td>
+                </tr>
+                <tr>
+                    <th>Note</th>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>100</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+        <footer class="container-footer">
+            <ul>
+                <li><a href="https://github.com/palak-dhingra"><img src="images/github.svg" alt=""></a></li>
+                <li><a href="https://twitter.com/PalakDhingra11"><img src="images/twitter.svg" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/palak-dhingra-780a3a107/"><img src="images/linkedin.svg"
+                            alt=""></a></li>
+
+            </ul>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>

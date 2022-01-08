@@ -1,4 +1,4 @@
-# neogcamp_profit_loss
+# [profit_loss](https://profit-stocks-loss.netlify.app/)
 A website which helps user with how much profit or loss he/she is making through stocks in percentage & absolute value.
 
 # How to use:
